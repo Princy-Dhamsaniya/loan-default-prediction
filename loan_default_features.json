@@ -1,0 +1,79 @@
+{
+  "features": [
+    "Age",
+    "Income",
+    "LoanAmount",
+    "CreditScore",
+    "MonthsEmployed",
+    "NumCreditLines",
+    "InterestRate",
+    "LoanTerm",
+    "DTIRatio",
+    "Education",
+    "EmploymentType",
+    "MaritalStatus",
+    "HasMortgage",
+    "HasDependents",
+    "LoanPurpose",
+    "HasCoSigner"
+  ],
+  "numeric_features": [
+    "Age",
+    "Income",
+    "LoanAmount",
+    "CreditScore",
+    "MonthsEmployed",
+    "NumCreditLines",
+    "InterestRate",
+    "LoanTerm",
+    "DTIRatio"
+  ],
+  "categorical_features": [
+    "Education",
+    "EmploymentType",
+    "MaritalStatus",
+    "HasMortgage",
+    "HasDependents",
+    "LoanPurpose",
+    "HasCoSigner"
+  ],
+  "target": "Default",
+  "categories": {
+    "Education": [
+      "Bachelor's",
+      "High School",
+      "Master's",
+      "PhD"
+    ],
+    "EmploymentType": [
+      "Full-time",
+      "Part-time",
+      "Self-employed",
+      "Unemployed"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single"
+    ],
+    "HasMortgage": [
+      "No",
+      "Yes"
+    ],
+    "HasDependents": [
+      "No",
+      "Yes"
+    ],
+    "LoanPurpose": [
+      "Auto",
+      "Business",
+      "Education",
+      "Home",
+      "Other"
+    ],
+    "HasCoSigner": [
+      "No",
+      "Yes"
+    ]
+  }
+}
